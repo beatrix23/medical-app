@@ -1,0 +1,40 @@
+.root {
+    -fx-font-size: 14px;
+    -fx-font-family: sans-serif;
+    -fx-background-color: #ace3b2;
+}
+
+.sidebar-section {
+    -fx-pref-width: 200px;
+    -fx-pref-height: 800px;
+    -fx-border-width: 1;
+    -fx-background-color: #97c0de;
+    -fx-border-color: #302866;
+    -fx-padding: 8 8 8 8;
+    -fx-font-weight: bold;
+
+}
+
+#create {
+    -fx-alignment: CENTER;
+    -fx-spacing: 200px;
+    -fx-font-size: 17px;
+}
+
+#allAppointments {
+    -fx-spacing: 200px;
+    -fx-alignment: CENTER;
+    -fx-font-size: 17px;
+}
+
+#profile {
+    -fx-spacing: 200px;
+    -fx-alignment: CENTER;
+    -fx-font-size: 17px;
+}
+
+.content-section {
+    -fx-padding: 10 20 10 20;
+    -fx-wrap-text: true;
+
+}

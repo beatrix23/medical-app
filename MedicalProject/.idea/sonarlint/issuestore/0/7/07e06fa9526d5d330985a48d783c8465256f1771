@@ -1,0 +1,28 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(µâ£äþÿÿÿÿ
+>	java:S108*")Either remove or fill this block of code.(§º¹î
+P
+java:S1854="5Remove this useless assignment to local variable "i".(™¶ˆ¬üÿÿÿÿ
+A
+java:S1481="&Remove this unused "i" local variable.(™¶ˆ¬üÿÿÿÿ
+P
+java:S1854V"5Remove this useless assignment to local variable "i".(™¶ˆ¬üÿÿÿÿ
+A
+java:S1481V"&Remove this unused "i" local variable.(™¶ˆ¬üÿÿÿÿ
+N	java:S106["9Replace this use of System.out or System.err by a logger.(ˆ«¢×
+c
+java:S2095P"HUse try-with-resources or close this "Connection" in a "finally" clause.(‹æã¾ùÿÿÿÿ
+c
+java:S2095h"HUse try-with-resources or close this "Connection" in a "finally" clause.(‹æã¾ùÿÿÿÿ
+c
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(‹æã¾ùÿÿÿÿ
+e
+java:S2095:"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(±–“´
+j
+java:S2095Q"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(äœ¼Ùþÿÿÿÿ
+e
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(òÐôÜ
+e
+java:S2095i"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(…ò¡ž
+c
+java:S20959"HUse try-with-resources or close this "Connection" in a "finally" clause.(‹æã¾ùÿÿÿÿ

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            xmlns="http://javafx.com/javafx"
+            fx:controller="org.example.controllers.DoAppointmentController"
+            prefHeight="400.0" prefWidth="600.0">
+    <!--<VBox alignment="CENTER"> -->
+    <BorderPane>
+        <left>
+            <VBox>
+                <Label style="-fx-text-fill:AliceBlue; -fx-font-size:1.2em;
+        -fx-padding:16 0 8 10;-fx-font-weight:bold;" text="       "></Label>
+            </VBox>
+        </left>
+        <Label></Label>
+        <center>
+            <GridPane alignment="CENTER" fx:id="content"></GridPane>
+
+        </center>
+        <right>
+            <VBox alignment="BOTTOM_RIGHT">
+                <Label></Label>
+                <Label></Label>
+                <Label></Label>
+                <Label></Label>
+                <Label></Label>
+                <Label></Label>
+                <Label></Label>
+                <Button style="-fx-text-fill:Maroon; -fx-font-size:1.2em;
+        -fx-padding:8 8 8 8;-fx-font-weight:bold; -fx-end-margin:100 " text="Programare"
+                        onAction="#btnDoAppointment"></Button>
+                <Label></Label>
+                <Label></Label>
+                <Button style="-fx-text-fill:Maroon; -fx-font-size:1.2em;
+        -fx-padding:8 8 8 8;-fx-font-weight:bold;" text="Înapoi" onAction="#btnGoBack"></Button>
+            </VBox>
+        </right>
+    </BorderPane>
+
+
+    <!--</VBox> -->
+</AnchorPane>

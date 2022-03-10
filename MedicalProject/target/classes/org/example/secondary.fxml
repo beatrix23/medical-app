@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            xmlns="http://javafx.com/javafx"
+            fx:controller="org.example.controllers.SecondaryController"
+            prefHeight="400.0" prefWidth="600.0">
+    <BorderPane>
+        <left>
+            <VBox styleClass="sidebar-section">
+                <children>
+                    <Label></Label>
+                    <Label id="profile" text="Profilul meu" onMouseClicked="#btnswitchToMyProfile"></Label>
+                    <Label></Label>
+                    <Label id="create" text="Creează o programare"
+                           onMouseClicked="#btnswitchToCreateAppointment"></Label>
+                    <Label></Label>
+                    <Label id="allAppointments" text="Programările mele"
+                           onMouseClicked="#btnswitchToMyAppointments"></Label>
+                </children>
+            </VBox>
+        </left>
+        <center>
+            <VBox fx:id="content" styleClass="content-section">
+                <children>
+                    <GridPane fx:id="category">
+                    </GridPane>
+                </children>
+            </VBox>
+        </center>
+        <stylesheets>
+            <URL value="@secondary.css"/>
+        </stylesheets>
+    </BorderPane>
+</AnchorPane>

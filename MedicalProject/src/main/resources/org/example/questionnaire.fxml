@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            xmlns="http://javafx.com/javafx"
+            fx:controller="org.example.controllers.QuestionnaireController"
+            prefHeight="400.0" prefWidth="600.0">
+    <BorderPane>
+        <left>
+            <VBox>
+                <Label style="-fx-font-size:1.7em;
+        -fx-padding:8 8 8 8;-fx-font-weight:bold;" text="Chestionar"></Label>
+            </VBox>
+        </left>
+        <center>
+            <VBox>
+                <GridPane fx:id="grid">
+
+
+                </GridPane>
+                <Label></Label>
+                <Button style="-fx-text-fill:Maroon; -fx-font-size:1.5em;
+        -fx-padding:8 8 8 8;-fx-font-weight:bold; -fx-start-margin: 20; -fx-end-margin: 20;" text="Programeaza"
+                        onAction="#btnCreateAppointment"></Button>
+            </VBox>
+        </center>
+
+
+    </BorderPane>
+</AnchorPane>

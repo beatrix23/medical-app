@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+<VBox xmlns:fx="http://javafx.com/fxml/1" styleClass="content" alignment="TOP_CENTER" spacing="10.0"
+      xmlns="http://javafx.com/javafx/8.0.171" fx:controller="org.example.controllers.PrimaryController">
+    <Label styleClass="filling-section" text="Bun venit la programări medicale online!"/>
+    <VBox alignment="CENTER" spacing="30.0">
+
+        <Label styleClass="filling-section" text="Identificare utilizator"/>
+    </VBox>
+    <HBox>
+        <Label styleClass="text-section" text="Email: " textAlignment="LEFT"></Label>
+    </HBox>
+    <TextField fx:id="txtEmail" styleClass="filling-section" promptText="Email-il dvs."/>
+    <HBox>
+        <Label styleClass="text-section" text="Parolă: "></Label>
+    </HBox>
+    <PasswordField fx:id="txtPassword" styleClass="filling-section" promptText="Parola dvs."/>
+    <VBox>
+        <HBox>
+            <Label styleClass="text-section"
+                   text="Dacă deja aveți un cont apăsați pe Autentificare pentru a continua"></Label>
+        </HBox>
+        <HBox>
+            <Label styleClass="text-section"
+                   text="Dacă nu aveți cont apăsați pe Creează cont pentru a vă crea unul"></Label>
+        </HBox>
+    </VBox>
+    <Label></Label>
+    <Button style="-fx-text-fill:Indigo; -fx-font-size:1.7em;
+        -fx-padding:8 8 8 8;-fx-font-weight:bold;" fx:id="btnLogIn" text="Autentificare" onAction="#btnLogIn"/>
+    <Label></Label>
+    <Button style="-fx-text-fill:Maroon; -fx-font-size:1.7em;
+        -fx-padding:8 8 8 8;-fx-font-weight:bold;" fx:id="btnSignUp" text="Creează cont" onAction="#btnSignUp"/>
+
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+    <stylesheets>
+        <URL value="@primary.css"/>
+    </stylesheets>
+</VBox>
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+<?import java.net.URL?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            xmlns="http://javafx.com/javafx"
+            fx:controller="org.example.controllers.ProfileController"
+            prefHeight="400.0" prefWidth="600.0">
+    <BorderPane>
+        <left>
+            <VBox styleClass="sidebar-section">
+                <children>
+                    <Label></Label>
+                    <Label id="profile" text="Profilul meu" onMouseClicked="#btnswitchToMyProfile"></Label>
+                    <Label></Label>
+                    <Label id="create" text="Creează o programare"
+                           onMouseClicked="#btnswitchToCreateAppointment"></Label>
+                    <Label></Label>
+                    <Label id="allAppointments" text="Programările mele"
+                           onMouseClicked="#btnswitchToMyAppointments"></Label>
+                </children>
+            </VBox>
+        </left>
+        <center>
+            <VBox fx:id="content" styleClass="content-section">
+                <children>
+                    <Text style="-fx-font-size:1.2em;
+        -fx-padding:8 8 8 8;-fx-font-weight:bold;" text="Introduceți datele dvs. pentru a le actualiza"></Text>
+                    <Label></Label>
+                    <Label text="Nume: " style="-fx-text-fill:DimGray; -fx-font-size:1.2em;
+        -fx-padding:8 8 8 8;-fx-font-weight:bold;" alignment="CENTER_LEFT"/>
+                    <TextField fx:id="txtName" promptText="Numele dvs."></TextField>
+                    <Label></Label>
+                    <Label text="Vârsta: " style="-fx-text-fill:DimGray; -fx-font-size:1.2em;
+        -fx-padding:8 8 8 8;-fx-font-weight:bold;"/>
+                    <TextField fx:id="txtAge" promptText="Vârsta dvs."></TextField>
+                    <Label></Label>
+                    <Label text="Numărul de telefon: " style="-fx-text-fill:DimGray; -fx-font-size:1.2em;
+        -fx-padding:8 8 8 8;-fx-font-weight:bold;"></Label>
+                    <TextField fx:id="txtPhone" promptText="Nr. dvs. de telefon"></TextField>
+                    <Label></Label>
+                    <Button style="-fx-text-fill:Indigo; -fx-font-size:1.2em;
+        -fx-padding:8 8 8 8;-fx-font-weight:bold;" text="Actualizează datele" onAction="#btnUpdateProfile"></Button>
+                    <GridPane fx:id="userData">
+                    </GridPane>
+                </children>
+            </VBox>
+        </center>
+        <stylesheets>
+            <URL value="@secondary.css"/>
+        </stylesheets>
+    </BorderPane>
+</AnchorPane>
